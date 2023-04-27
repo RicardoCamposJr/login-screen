@@ -7,10 +7,10 @@
 ## Layouts:
 
 ### Web
-![Web] (https://github.com/RicardoCamposJr/login-screen/blob/main/assets/layout-web.PNG)
+![Web](https://github.com/RicardoCamposJr/login-screen/blob/main/assets/layout-web.PNG)
 
 ### Mobile
-![Web] (https://github.com/RicardoCamposJr/login-screen/blob/main/assets/layout-mobile.PNG)
+![Web](https://github.com/RicardoCamposJr/login-screen/blob/main/assets/layout-mobile.PNG)
 
 ## Technologies used:
 ### Front-End
