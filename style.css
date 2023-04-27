@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.main-div {
+  background: #201b2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.left-div {
+  width: 50vw;
+  height: 100vh;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-div > h1 {
+  font-size: 3vw;
+  color: #77ffc0;
+}
+
+.image {
+  width: 35vw;
+}
+
+.right-div {
+  width: 50vw;
+  height: 100vh;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-field{
+  display: flex;
+  width: 60%;
+  border-radius: 20px;
+  background:#2f2841;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+.login-field > h1 {
+  margin: 0;
+  font-weight: 800;
+  color: #00ff88;
+}
+
+.text-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px
+}
+
+.text-field > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #514869;
+  color: #f0ffffde;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.text-field > label {
+  color: #f0ffffde;
+  margin-bottom: 10px;
+}
+
+.text-field > input::placeholder{
+  color: #f0ffff94;
+}
+
+.btn {
+  width: 100%;
+  padding: 16px 0px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2b134b;
+  background: #00ff88;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 950px) {
+  .login-field{
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-div {
+    flex-direction: column;
+  }
+  
+  .left-div > h1 {
+    display: none;
+  }
+
+  .left-div {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-div {
+    width: 100%;
+    height: auto;
+  }
+
+  .image{
+    width: 50vw;
+  }
+
+  .login-field {
+    width: 90%;
+  }
+  
+}
