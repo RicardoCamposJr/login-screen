@@ -1,4 +1,4 @@
-# login-screen
+# Login Screen
 
 ## About the project:
  A login screen using only HTML5 and CSS3!
